@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.colors {
+  color: gold;
+}
+
+.colors li, button {
+  cursor: pointer;
+}
