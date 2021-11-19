@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #0f181d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.colors li, button {
+  cursor: pointer !important;
+}
