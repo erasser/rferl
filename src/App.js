@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import './css/App.css';
-import ColorList from './components/ColorList.jsx';
-import AddColor from './components/AddColor.jsx';
+import ColorManager from './components/ColorManager.jsx';
 
 function App() {
     const [hash, setHash] = useState(window.location.hash);
@@ -9,26 +8,30 @@ function App() {
     window.addEventListener("hashchange", () => setHash(window.location.hash.toLowerCase()));
 
     return (
-        <div className="App pt-xl-5">
-            <div className="text-primary">
+        <>
+            <div className="text-primary mt-lg-2">
                 <div>Only text values are allowed.</div>
                 <div>Every color will be present just once.</div>
                 <div>Enjoy.</div>
             </div>
 
-            <hr />
+            <hr className="text-center w-50 m-lg-auto mt-lg-3" />
 
-            <AddColor />
+            <div className="componentContainer pt-xl-5">
 
-            <ColorList />
+                <ColorManager />
+                <ColorManager />
+                <ColorManager />
 
-            <hr />
+            </div>
+
+            <hr className="text-center w-50 m-lg-auto mt-lg-5" />
 
             <div className="fs-6 text-secondary">
                 <div>Made by Michal Grosser for Radio Free Europe / Radio Liberty.</div>
                 <div>Made using ReactJS & Bootstrap.</div>
             </div>
-        </div>
+        </>
     )
 }
 

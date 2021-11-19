@@ -18,7 +18,6 @@ class ColorList extends Component {
 
         return (
             <>
-                <hr />
                 <div className="fs-4">Colors:</div>
                 {colors.length > 0 &&
                     <ListGroup

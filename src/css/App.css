@@ -1,14 +1,32 @@
-.App {
+#root {
   text-align: center;
+  width: 100%;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+.componentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
 }
 
 body {
+  width: 100%;
   background-color: #0f181d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
+}
+
+.colorManagerWrapper {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+
 }
 
 .colors li, button {
