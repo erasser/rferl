@@ -1,10 +1,7 @@
 import React, {Component} from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
-// import {TAGS} from "../consts";
 import {getColors, checkHash} from "../hash.js";
-import * as ReactDOM from "react-dom";
 
 const TAGS = '#tags=';
 

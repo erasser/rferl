@@ -1,10 +1,6 @@
 #root {
   text-align: center;
   width: 100%;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
 
 .componentContainer {
@@ -19,14 +15,6 @@ body {
   width: 100%;
   background-color: #0f181d;
   color: white;
-}
-
-.colorManagerWrapper {
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-
 }
 
 .colors li, button {

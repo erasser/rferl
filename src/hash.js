@@ -1,4 +1,3 @@
-// import {TAGS} from "src/consts";
 const TAGS = '#tags=';
 
 function getColors() {

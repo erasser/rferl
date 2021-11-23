@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-
 import ColorList from './ColorList.jsx';
 import AddColor from './AddColor.jsx';
 

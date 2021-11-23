@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-// import {TAGS} from "../consts";
 import {getColors, checkHash} from "../hash.js";
 import ListGroup from "react-bootstrap/ListGroup";
 
